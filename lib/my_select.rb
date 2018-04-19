@@ -9,8 +9,7 @@ def my_select(collection)
        i+=1
    end
  else
-  puts "Empty collection"
+  return nil
  end
   new_collection
   end
-end 
