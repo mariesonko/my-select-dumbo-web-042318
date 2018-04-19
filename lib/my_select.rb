@@ -4,7 +4,7 @@ def my_select(nums)
       if nums.length > 0
       while x< nums.length
        if yield(nums[x])
-       new_collection << nums[i]
+       new_collection << nums[x]
      end
        x+=1
    end
