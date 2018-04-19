@@ -1,12 +1,12 @@
-def my_select(collection)
+def my_select(nums)
    x = 0
     new_collection = []
-      if collection.length > 0
-      while i < collection.length
-       if yield(collection[i])
-       new_collection << collection[i]
+      if nums.length > 0
+      while x< nums.length
+       if yield(nums[x])
+       new_collection << nums[i]
      end
-       i+=1
+       x+=1
    end
  else
   return nil
